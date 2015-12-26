@@ -1,1 +1,7 @@
-
+echo "WARNING! Double-check your destination folder and press enter! You can have DATA LOSS."
+echo "Path: $1"
+read
+mv "$1/esptool" "$1/esptool.bin"
+cp ./esptool "$1/esptool"
+chmod a+x "$1/esptool"
+echo Done!
