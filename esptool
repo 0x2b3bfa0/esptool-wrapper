@@ -1,0 +1,9 @@
+#!/bin/bash
+
+case "$1" in
+  ("-eo")
+    ./esptool.bin $@;;
+  ("-cd")
+    ./esptool.py --port "$6" write_flash 0x00000 "${10}";;
+  (*) echo "Invalid build command!"
+esac
