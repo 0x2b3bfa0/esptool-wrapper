@@ -1,3 +1,5 @@
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
+
 # esptool-wrapper
 A wrapper to use esptool.py instead of esptool-ck on Arduino.
 
@@ -16,6 +18,5 @@ A wrapper to use esptool.py instead of esptool-ck on Arduino.
 5. Enjoy the wrapper!
 
 ## Usage:
-You won't notice any difference while using Arduino IDE ![https://cdn01.gitter.im/_s/ce5803b/images/emoji/smiling_imp.png](https://cdn01.gitter.im/_s/ce5803b/images/emoji/smiling_imp.png)
-
+You won't notice any difference while using Arduino IDE :smiling_imp:
 ## ToDo: Make a proper wrapper. I accept pull requests. ;-)
