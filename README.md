@@ -14,4 +14,6 @@ A wrapper to use esptool.py instead of esptool-ck with Arduino IDE.
 3. Copy the path to that folder.
 
 4. Run the install script (it may need root privileges).
-    bash install "/path/to/arduino15/packages/esp8266/tools/esptool/version/" 
+
+       bash install "/path/to/arduino15/packages/esp8266/tools/esptool/version/" 
+  
